@@ -1,0 +1,31 @@
+*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background: url(images/admin.jpg);
+		}
+		form{
+			padding: 20px;
+			margin: 200px auto;
+			text-align: center;
+		}
+		label{
+			color: white;
+			display: inline-block;
+			margin: 20px;
+		}
+		input{
+			border-radius: 5px;
+			padding: 4px;
+		}
+		#password{
+			margin-left: 11px;
+		}
+		#submit{
+			width: 275px;
+			padding: 5px;
+			color: #fff;
+			margin-left: 20px;
+			background: #0e323c;
+		}

@@ -1,0 +1,344 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+	font-size: 20px;
+	margin: 0 auto;
+	padding: 10px;
+	background: #f1f1f1;
+	height: 70px;
+}
+
+nav h1{
+	font-size: 1.8em;
+	float: left;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+
+nav h1 a{
+	text-decoration: none;
+	color: #20778f;
+}
+
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 15px;
+}
+.main-nav li{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.main-nav li a{
+	text-decoration: none;
+	color: #000;
+}
+
+img{
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+}
+
+.background{
+	background: url(images/hotel.jpg);
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+/* About Section */
+
+section h2{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 2em;
+	color: #2da5c6;
+	padding: 20px;
+}
+
+section p{
+	/*float: left;*/
+	width: 52%;
+	line-height: 145%;
+	padding: 10px;
+	text-align: justify;
+	color: #fff;
+	margin-top: 50px;
+}
+
+.container{
+	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(images/about2.jpg);
+	/*background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), url(images/about2.jpg);*/
+	/*background: url(images/about2.jpg);*/
+	background-size: cover;
+	height: 100vh;
+}
+
+.imgage-sec{
+	float: right;
+	width: 100%;
+}
+
+.image-sec img{
+	width: auto;
+	height: 60%;
+	display: block;
+	position: fixed;
+	top: 150px;
+	right: 120px;
+	opacity: 1;
+	position: absolute;
+}
+
+.image-sec p{
+	position: absolute;
+	top: 480px;
+	left: 1030px;
+}
+
+/* Halls Section */
+
+.halls {
+	text-decoration: none;
+	color: #000;
+	border-bottom: 2px solid #20778f;
+}
+
+.halls:hover{
+	color: #0000ff;
+}
+
+
+/* Accomodation Section */
+ 
+.rooms{
+	width: 100%;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.rooms img{
+	width: 100%;
+	height: 400px;
+	padding: 15px;
+}
+
+.img-container{
+	width: 100%;
+	columns: 2;
+}
+
+.containers{
+	position: relative;
+	text-align: center;
+	color: white;
+	float: left;
+}
+
+.texts-1{
+	position: absolute;
+	top: 470px;
+	left: 215px;
+	color: black;
+	font-weight: bold;
+}
+.texts-2{
+	position: absolute;
+	top: 470px;
+	left: 915px;
+	color: black;
+	font-weight: bold;
+}
+.texts-3{
+	position: absolute;
+	top: 875px;
+	left: 215px;
+	color: black;
+	font-weight: bold;
+}
+.texts-4{
+	position: absolute;
+	top: 875px;
+	left: 915px;
+	color: black;
+	font-weight: bold;
+}
+
+.texts-5{
+	margin-left: 280px;
+	font-size: 1.2em;
+}
+
+.texts-6{
+	margin-left: 280px;
+	font-size: 1.2em;
+}
+
+.texts-7{
+	margin-left: 280px;
+	font-size: 1.2em;
+}
+
+.texts-8{
+	margin-left: 280px;
+	font-size: 1.2em;
+}
+
+.texts-9{
+	margin-left: 280px;
+	font-size: 1.2em;
+}
+
+.texts-10{
+	margin-left: 280px;
+	font-size: 1.2em;
+}
+
+.texts-11{
+	margin-left: 280px;
+	font-size: 1.2em;
+}
+
+.texts-12{
+	margin-left: 280px;
+	font-size: 1.2em;
+}
+
+.round img{
+	border-radius: 50px;
+}
+
+hr{
+	width: 80%; 
+	height: 5px;
+	background: #00ff00;
+	margin: 80px auto;
+}
+/* Reservation */
+
+.reservation{
+	background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(images/lobby.jpg);
+	width: 100%;
+	height: auto;
+	background-size: cover;
+}
+
+.reservation p{
+	text-align: center;
+	font-size: 2em;
+	margin: 0;
+}
+
+.reservation form input,
+.reservation form textarea{
+	display: inline-block;
+	margin: 0 auto;
+	/*text-align: center;*/
+	margin-top: 10px;
+	padding: 5px;
+	width: 300px;
+}
+
+.reservation form textarea{
+	resize: none;
+}
+
+
+.reservation form label{
+	display: inline-block;
+	margin-left: 40%;
+	margin-right: 50px;
+	color: white;
+}
+
+#f_name{
+	margin-left: 10px;
+}
+
+#l_name{
+	margin-left: 12px;
+}
+
+#c_no{
+	margin-left: 9px;
+}
+
+#address{
+	margin-left: 30px;
+}
+
+#email{
+	margin-left: 45px;
+}
+
+#type{
+	margin-left: 15px;
+}
+
+#hall{
+	margin-left: 19px;
+}
+
+#ask{
+	margin-left: -3px;
+}
+
+#submit{
+	margin-left: 50.8%;
+	background: #144957;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+/* Contact */
+.contact{
+	background: url(images/contact.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.contact p{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.4em;
+	color: #071b20;
+	font-weight: bold;
+}
+
+.margin{
+	padding-top: 50px;
+}
+
+/* Footer */
+footer{
+	background: #20778f;
+	padding: 10px;
+	overflow: hidden;
+	color: #fff;
+	text-align: center;
+}
+
+#admin-login{
+	font-size: 1.2em;
+	padding-top: 90px;
+}
+#admin-login a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px;
+	border: 2px solid green;
+	background: #41b4d4;
+}
+#admin-login a:hover{
+	background: #113d49;
+	color: #fff;
+}
